@@ -3,9 +3,11 @@ import { Contact } from "../components/Contact";
 import { Event } from "../components/Event";
 import { Location } from "../components/Location";
 import { Layout } from "../components/Layout"
+import { Hero } from "../components/Hero";
 
 const IndexPage = () => (
   <Layout>
+    <Hero />
     <Event />
     <Location />
     <Contact />
