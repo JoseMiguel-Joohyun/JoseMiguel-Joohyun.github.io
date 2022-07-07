@@ -1,0 +1,41 @@
+{
+  "name": "jose-miguel-joohyun.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jose-miguel-joohyun.github.io",
+  "author": "Jose Miguel Navarro",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build && gh-pages -d public -b main"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.18.0",
+    "gatsby-plugin-image": "^2.18.0",
+    "gatsby-plugin-mdx": "^3.18.0",
+    "gatsby-plugin-sharp": "^4.18.0",
+    "gatsby-plugin-styled-components": "^5.18.0",
+    "gatsby-source-filesystem": "^4.18.0",
+    "gatsby-transformer-sharp": "^4.18.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "gh-pages": "^4.0.0",
+    "typescript": "^4.7.4"
+  }
+}
