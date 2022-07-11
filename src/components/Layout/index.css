@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
+:root {
+  --bg-color: #ff0;
+  --main-color: #EDEFED;
+  --text-color: #434142;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -67,7 +73,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background-color: #ff0;
+  background-color: var(--bg-color);
   color: #000;
 }
 small {
@@ -202,7 +208,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color:#434142;
+  color: var(--text-color);
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   word-wrap: break-word;

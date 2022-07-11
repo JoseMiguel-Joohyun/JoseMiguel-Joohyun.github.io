@@ -10,8 +10,8 @@
 }
 
 .event-header {
-  border-top: 1.5px solid #434142;
-  border-bottom: 1.5px solid #434142;
+  border-top: 1.5px solid var(--text-color);
+  border-bottom: 1.5px solid var(--text-color);
   display: flex;
 }
 

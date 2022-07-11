@@ -7,11 +7,11 @@ import "./index.css";
 export const Header = () => (
   <header>
     <div className="header-content">
-      <div className="header-brand">
+      {/* <div className="header-brand">
         <Link to="/">
 					<StaticImage src="../../images/icon.png" alt="logo" />
         </Link>
-      </div>
+      </div> */}
       <div className="header-menu">
         <Link to="#location">LOCATION</Link>
         <Link to="#event">EVENT</Link>

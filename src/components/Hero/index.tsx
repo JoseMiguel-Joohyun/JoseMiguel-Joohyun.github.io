@@ -13,7 +13,8 @@ export const Hero = () => (
         <StaticImage src="../../images/main.jpg" alt="logo" />
       </div>
       <div className="hero-text">
-        4 de Septiembre de 2022
+        4 de Septiembre de 2022<br/>
+        2022년 9월 4일
       </div>
     </div>
   </div>

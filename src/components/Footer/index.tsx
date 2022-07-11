@@ -6,7 +6,7 @@ import "./index.css"
 export const Footer = () => (
   <div className="footer">
     <div className="credits">
-      <div>By Jose Miguel y Julia</div>
+      <div>By Jose Miguel y Joohyun</div>
     </div>
     {/* <img className="forest" src={Forest}/> */}
   </div>

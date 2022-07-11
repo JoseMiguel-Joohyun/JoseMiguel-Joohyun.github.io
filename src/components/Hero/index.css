@@ -1,14 +1,17 @@
 @import url('../../fonts/silk-serif-bold/stylesheet.css');
 .hero {
   font-family: 'silk_serifbold';
-  background-color: #EDEFED;
+  background-color: var(--main-color);
   display: flex;
   justify-content: center;
+  flex: 1;
+  width: 100%;
 }
 
 .hero-content {
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   vertical-align: baseline
@@ -16,11 +19,11 @@
 
 .hero-cover {
   max-width: 45vw;
-  margin: 2rem;
+  margin: 0 auto;
 }
 
 .hero-text {
-  max-width: 9rem;
+  margin: 2rem;
   font-size: 1.75rem;
   line-height: 1.10;
   display: flex;
@@ -36,8 +39,6 @@
 @media only screen and (max-width: 767px) {
   .hero-cover {
     max-width: 80vw;
-    max-height: 30vh;
-    margin: 0;
   }
   .hero-text {
     margin: 1rem;
