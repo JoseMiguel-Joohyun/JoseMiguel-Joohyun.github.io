@@ -1,0 +1,39 @@
+.person-wrapper {
+  margin: 0 auto 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.person-description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .person-image {
+    min-width: 300px;
+  }
+  .person-description {
+    padding-left: 1rem;
+  }
+  .reverse .person-wrapper {
+    flex-direction: row-reverse;
+  }
+  .reverse .person-description {
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .person-wrapper {
+    flex-direction: column;
+  }
+  .person-description {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .person-image {
+    max-width: 75vw;
+    /* max-height: 250px; */
+  }
+}

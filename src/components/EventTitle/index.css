@@ -5,6 +5,10 @@
   display: flex;
 }
 
+.reverse .event-header {
+  flex-direction: row-reverse;
+}
+
 .event-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -25,9 +29,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .event-header {
-    flex-direction: column;
-  }
   .event-title {
     display: flex;
     flex-direction: column;
