@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('../../fonts/silk-serif-bold/stylesheet.css');
 
 :root {
   --bg-color: #ff0;
